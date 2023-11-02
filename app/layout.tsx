@@ -1,24 +1,24 @@
-import type { Metadata } from 'next'
-import localFont from 'next/font/local'
-import './globals.css'
+import type { Metadata } from "next"
+import localFont from "next/font/local"
+import "./globals.css"
 
 export const metadata: Metadata = {
-  title: 'F8 TRIBUTO',
-  description: 'Showcase website for Ferrari F8 TRIBUTO',
+  title: "F8 TRIBUTO",
+  description: "Showcase website for Ferrari F8 TRIBUTO"
 }
 
 const Helvetica = localFont({
-  src: '../public/fonts/Helvetica.ttf',
-  variable: '--font-helvetica',
+  src: "../public/fonts/Helvetica.ttf",
+  variable: "--font-helvetica"
 })
 
 const Monument = localFont({
-  src: '../public/fonts/Monument.otf',
-  variable: '--font-monument',
+  src: "../public/fonts/Monument.otf",
+  variable: "--font-monument"
 })
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode
 }) {
