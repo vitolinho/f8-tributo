@@ -1,6 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .heading-1 {
+    @apply text-5xl leading-[5.75rem] font-monument tracking-[2rem] uppercase;
+  }
+  .heading-2 {
+    @apply text-4xl leading-[4.5rem] font-monument tracking-[1.5rem] uppercase;
+  }
+  .heading-3 {
+    @apply text-3xl leading-[3.75rem] font-monument tracking-[1rem] uppercase;
+  }
+  .heading-4 {
+    @apply text-2xl leading-[2.25rem] font-monument tracking-[0.75rem] uppercase;
+  }
+  .heading-5 {
+    @apply text-xl leading-[1.5rem] font-monument tracking-[0.5rem] uppercase;
+  }
+  .heading-6 {
+    @apply text-sm leading-[0.9rem] font-monument tracking-[0.3rem] uppercase;
+  }
+  .button {
+    @apply text-base leading-[1.5rem] font-helvetica tracking-[0.4rem] uppercase;
+  }
+  .body {
+    @apply text-base leading-[1.5rem] font-helvetica uppercase;
+  }
+}
  
 @layer base {
   * {
