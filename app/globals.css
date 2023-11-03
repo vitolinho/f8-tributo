@@ -34,6 +34,6 @@
     @apply box-border;
   }
   body {
-    @apply bg-neutral-1;
+    @apply bg-primary;
   }
 }
