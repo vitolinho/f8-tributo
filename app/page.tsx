@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Navbar/>
-      <div className="w-full h-screen flex items-end">
+      <div className="w-full h-[800px] flex items-end lg:h-screen">
         <Image
           alt="hero"
           src={"/1.jpg"}
