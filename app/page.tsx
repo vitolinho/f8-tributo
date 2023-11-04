@@ -93,7 +93,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="h-screen flex flex-col gap-y-[3.75rem] px-6 py-[6.25rem] lg:flex-row lg:justify-between lg:items-center lg:px-16">
+      <div className="h-fit flex flex-col gap-y-[3.75rem] px-6 py-[6.25rem] lg:flex-row lg:justify-between lg:items-center lg:px-16">
         <div className="flex flex-col gap-y-5">
           <Image
             alt="5th image"
@@ -147,6 +147,58 @@ export default function Home() {
             configurer
           </a>
         </div>
+      </div>
+      <div className="h-fit bg-neutral-3 flex flex-col gap-y-[3.75rem] items-center px-6 py-20 lg:flex-row lg:justify-between lg:px-16">
+        <Image
+          alt="logo"
+          src={"/logo.svg"}
+          width={147}
+          height={207}
+          className="block lg:hidden"
+        />
+        <Image
+          alt="logo"
+          src={"/logo.svg"}
+          width={206}
+          height={289}
+          className="hidden lg:block"
+        />
+        <div className="flex flex-col gap-10 lg:flex-row">
+          <a href="/" className="button text-white cursor-pointer">link 01</a>
+          <a href="/" className="button text-white cursor-pointer">link 02</a>
+          <a href="/" className="button text-white cursor-pointer">link 03</a>
+          <a href="/" className="button text-white cursor-pointer">link 04</a>
+        </div>
+        <div className="flex flex-row gap-x-5">
+          <Image
+            alt="youtube icon"
+            src={"/icons/youtube.svg"}
+            width={24}
+            height={24}
+          />
+          <Image
+            alt="youtube icon"
+            src={"/icons/youtube.svg"}
+            width={24}
+            height={24}
+          />
+          <Image
+            alt="youtube icon"
+            src={"/icons/youtube.svg"}
+            width={24}
+            height={24}
+          />
+          <Image
+            alt="youtube icon"
+            src={"/icons/youtube.svg"}
+            width={24}
+            height={24}
+          />
+        </div>
+      </div>
+      <div className="bg-neutral-3 flex flex-col items-center gap-y-5 border pb-10 border-neutral-3 lg:flex-row lg:justify-between lg:px-16 lg:pb-[6.25rem]">
+        <p className="button text-white cursor-pointer">© VitomirLACES</p>
+        <p className="button text-white">2023</p>
       </div>
     </>
   )
