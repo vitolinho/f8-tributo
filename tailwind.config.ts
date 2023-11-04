@@ -17,7 +17,6 @@ const config: Config = {
       "5xl": "5rem"
     },
     container: {
-      center: true,
       screens: {
         "2xl": "1400px"
       }
