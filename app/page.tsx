@@ -93,6 +93,61 @@ export default function Home() {
           />
         </div>
       </div>
+      <div className="h-screen flex flex-col gap-y-[3.75rem] px-6 py-[6.25rem] lg:flex-row lg:justify-between lg:items-center lg:px-16">
+        <div className="flex flex-col gap-y-5">
+          <Image
+            alt="5th image"
+            src={"/5.jpg"}
+            width={380}
+            height={214}
+            className="block lg:hidden"
+          />
+          <Image
+            alt="5th image"
+            src={"/5.jpg"}
+            width={558}
+            height={579}
+            className="hidden lg:block"
+          />
+          <div className="flex flex-row gap-x-5">
+            <Image
+              alt="6th image"
+              src={"/6.jpg"}
+              width={225}
+              height={169}
+              className="block lg:hidden"
+            />
+            <Image
+              alt="7th image"
+              src={"/7.jpg"}
+              width={147}
+              height={170}
+              className="block lg:hidden"
+            />
+            <Image
+              alt="6th image"
+              src={"/6.jpg"}
+              width={327}
+              height={245}
+              className="hidden lg:block"
+            />
+            <Image
+              alt="7th image"
+              src={"/7.jpg"}
+              width={211}
+              height={245}
+              className="hidden lg:block"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col gap-y-[3.25rem]">
+          <p className="heading-3 lg:heading-1">style<br></br>cockpit</p>
+          <p className="body lg:w-[18.75rem]">Le cockpit conserve l&apos;aspect classique et axé sur le conducteur typique des berlinettes à moteur central arrière de Ferrari. La F8 Tributo est également équipé d&apos;un nouveau volant et de nouvelles commandes montées sur le volant.</p>
+          <a href="/" className="flex items-center justify-center px-6 py-4 button border bg-transparent button cursor-pointer text-neutral-3 border-neutral-3 w-full lg:w-[12.5rem]">
+            configurer
+          </a>
+        </div>
+      </div>
     </>
   )
 }
