@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "@next/font": "^14.0.1",
+    "@studio-freight/lenis": "^1.0.27",
     "eslint-plugin-unicorn": "^49.0.0",
     "eslint-plugin-unused-imports": "^3.0.0",
     "next": "14.0.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-scroll-parallax": "^3.4.3"
   },
   "devDependencies": {
     "@types/node": "^20",
