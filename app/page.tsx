@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Navbar/>
-      <div className="w-full h-[800px] flex items-end lg:h-screen">
+      <div className="w-full h-screen flex items-end">
         <Image
           alt="hero"
           src={"/1.jpg"}
@@ -13,7 +13,7 @@ export default function Home() {
           objectFit="cover"
           className="z-0 full h-screen"
         />
-        <div className="w-full flex justify-center items-center px-6 pt-2 pb-6 mb-[6.25rem] z-20 mix-blend-difference lg:pr-[1rem] lg:py-[5.75rem] lg:justify-end lg:mb-0">
+        <div className="w-full mix-blend-difference py-[6.25rem] px-6 lg:flex lg:justify-end">
           <div className="heading-3 text-white mix-blend-difference lg:heading-1">f8 tributo</div>
         </div>
       </div>
