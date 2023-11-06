@@ -1,9 +1,11 @@
 import Navbar from "@/components/navbar/navbar"
+import SmoothScroll from "@/components/smoothScroll/smoothScroll"
 import Image from "next/image"
 
 export default function Home() {
   return (
     <>
+      <SmoothScroll/>
       <Navbar/>
       <div className="w-full h-screen flex items-end">
         <Image
